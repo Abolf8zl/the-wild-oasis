@@ -101,7 +101,7 @@ function Toggle({ id }) {
 function List({ id, children }) {
   const { openId, position, close } = useContext(MenusContaxt);
   const ref = useOutsideClick({
-    handler: close,
+    handler: () => close(),
     listenCapturing: true,
   });
   if (openId !== id) return null;

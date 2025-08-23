@@ -16,7 +16,6 @@ function Sidbar() {
     <StyledSidbar>
       <Logo />
       <MainNav />
-      <Uploader />
     </StyledSidbar>
   );
 }
